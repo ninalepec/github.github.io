@@ -25,10 +25,11 @@ body
 	margin:2% 0;
 }
 
-.test img {
-	width: 40%;
+img.test {
+	width: 20%;
 	height: auto;
 	margin:2% 0;
+	text-align: center;
 }
 
 .mainheader nav {
