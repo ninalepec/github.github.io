@@ -21,11 +21,9 @@
 		<nav>
 			<ul>
 				<li class="active"><a href="index.html" title="aller à la section 1">Accueil</a></li>
-  				<li><a href="presentation.html" title="aller à la section 2">Présentation</a></li>
-  				<li><a href="presentation.html" title="aller à la section 2">Soutenance 1</a></li>
-  				<li><a href="presentation.html" title="aller à la section 2">Soutenance 2</a></li>
-  				<li><a href="presentation.html" title="aller à la section 2">Soutenance 3</a></li>
-  				<li><a href="presentation.html" title="aller à la section 2">Télécharger le jeu</a></li>
+  				<li><a href="powerhouse.hmtl" title="aller à la section 2">Le Groupe</a></li>
+  				<li><a href="lejeu.html" title="aller à la section 2">Le Jeu</a></li>
+  				<li><a href="télécharger.html" title="aller à la section 2">Télécharger le jeu</a></li>
 			</ul>
 		</nav>
 		
@@ -53,19 +51,31 @@
 
 <aside class="top-sidebar">
 	<article>
-		<h2>Top Sidebar</h2>
+		<h2>Le Scénario</h2>
 		<p>
-		Cette partie du projet est consacrée à la création d’un site internet sur lequel seront disponibles plusieurs informations relatives au jeu et aux développeurs. Vous pourrez y télécharger le jeu, visionner la bande-annonce, avoir accès à un manuel d’utilisation ainsi que diverses informations. Ce cahier des charges y figurera également ainsi qu’une rapide description des concepteurs. Cette partie est effectuée par Amina est assisté par Etienne. Pourcentage prévu à la première soutenance : 50%
+		C’est un voyage dans le temps qu’on propose au(x) joueur(s). Les personnages prin- cipaux ont pour but d’aller sur la Lune. Les personnages doivent pouvoir  ́evoluer dans plusieurs temporalit ́es qui leur proposeront des avantages selon l’avancé technologique inhérente à l'époque.
 		</p>
+
+		<p>Notre inspiration pour les p ́eriodes, ainsi que les ennemis et les objets qui vont ac- compagner le(s) personnage(s) provient du jeu Civilisation V :
+			<ul>
+				<li> Antiquité</li>
+				<li> Ere Classique </li>
+				<li>Moyen Age</li>
+				<li>Revolution Industrielle</li>
+				<li>Ere Moderne</li>
+				<li>Ere Atomique</li>
+				<li>Ere de l'information</li>>
+			</ul>
+		 </p>
 	</article>
 </aside>
 
 
 <aside class="top-sidebar">
 	<article>
-		<h2>Top Sidebar</h2>
+		<h2>Inspiration</h2>
 		<p>
-		L'idée directrice de notre jeu serait que les personnages débutent dans une ère ancienne. Par hasard, ils rencontrent un sage qui leur annonce une prophétie : "un jour, il sera possible d’aller sur la Lune." Les joueurs sont pris de folie et décident qu'ils seront les premiers à aller sur la Lune. Pour ce faire, ils sont en mesure de quitter leur époque (à condition de réussir tout les défis de la période), pour en rejoindre une plus moderne, et ainsi de suite. Cela permettra aux joueurs de passé d'ère en ère pour parvenir a leur but.
+		Rogue est un jeu vid ́eo datant de 1980, con ̧cu par Michael Toy, Glenn Wichman et Ken Arnold pour les terminaux Unix. Le joueur doit descendre dans un vaste ensemble de souterrains pour y trouver l’Amulette de Yendor et la ramener a` la surface. Pour chaque session de jeu, il ne dispose que d’une seule vie et d’une seule sauvegarde, empˆechant les retours en arri`ere. Ce syst`eme de mort permanente est associ ́e a` un m ́ecanisme de cr ́eation de niveaux al ́eatoire, conduisant a` des parties toujours diff ́erentes. Le principe s’inspire des jeux de rˆole « m ́edi ́evaux-fantastiques » tels que Donjons et Dragons et des fictions interactives tels que Colossal Cave Adventure. Contrairement a` ce dernier, qui d ́ecrit l’univers du jeu de mani`ere purement narrative, Rogue utilise les caract`eres ASCII pour symboliser a` l’ ́ecran le terrain, les tr ́esors et les cr ́eatures (y compris le joueur) qui composent les souterrains.
 		</p>
 	</article>
 </aside>
@@ -73,9 +83,36 @@
 
 <aside class="middle-sidebar">
 	<article>
-		<h2>Middle Sidebar</h2>
+		<h2>Mécanique de jeu</h2>
 		<p>
 		Pour la prochaine soutenance, nous devrions être en mesure d’implémenter les effets sonores dans le jeu, nous allons également chercher ou composer une multitudes de musiques d’ambiances pour augmenter l’immersion du joueur. Il va être nécessaire de trouver des musiques qui nous mette dans l'ambiance de l'ère dans lequel le joueur se trouve.
+
+		<ol>
+			<li>La carte de jeu : Généré de manière procédurale, la carte se décompose en  étage. Chaque  étage est composz de salles dans lesquelles  évolue le joueur. Les trois thèmes prévus actuellement sont ”Le moyen âge”, ”L’`ere industrielle” et ”L’`ere de l’information”.</li>
+
+			<li>Les salles : Comme dans le jeu Binding of Isaac, le joueur progressera sur plusieurs  étages, elles-même composées de nombreuses salles dans lesquelles il faudra soit battre un ou plusieurs ennemis soit récupérer des trésors qui seront des bonus pour le joueur. La modélisation des salles consistera à définir le nombre de salles que l’on attribue `a chaque étage, la taille des salles (et leur forme) mais aussi le type de salles à attribuer à chaque étages(s’il s’agira de salles normales ou spéciales). Aussi il faudra disposer d'obstacles afin de ralentir le joueur (comme des bombes ou des blocs empêchant le passage). Enfin, le thème  étant le voyage dans le temps, il s’agira, de par les éléments placés dans les salles, de faire émerger une ambiance qui retracera plusieurs  époques, tout en liant la musique.</li>
+
+			<li>Les objets : Les objets collectés par le joueur a travers les salles et les mondes vont lui permettre d’améliorer ses compétences et statistiques</li>
+			<li>Les statistiques joueur : Un rogue-lite voit les statistiques de leurs joueurs varier pendant une partie. Les joueurs auront acc`es a 6 statistiques diff ́erentes :
+				<ul>
+					<li>La vie du joueur</li>
+					<li>La fréquence de tir du joueur</li>
+					<li>La vitesse des projectiles</li>
+					<li>Les dégâts des projectiles</li>
+					<li>La vitesse du joueur</li>
+					<li>La distance d’attaque du joueur</li>
+
+				</ul>
+			</li>
+
+			<li>Les ennemis : Les ennemis nécessitent plusieurs IAs. Celles-ci seront cyclique et comprendront plusieurs phases :
+				<ul>
+					<li>Mouvement</li>
+					<li>Tir</li>
+					<li>Pause</li>
+				</ul>
+			</li>
+		</ol>
 		</p>
 	</article>
 </aside>
@@ -83,10 +120,10 @@
 
 <aside class="bottom-sidebar">
 	<article>
-		<h2>Bottom Sidebar</h2>
+		<h2>Objectif du projet</h2>
 		<p>
-		Pour cette première soutenance nous pouvons dire que nous avons réussi à atteindre les objectifs que nous nous étions donnés au rendu du cahier des charges. Les difficultés majeures furent le réseau et la gestion de la caméra. Cependant, nous avons réussi à surmonter ces obstacles pour présenter un jeu se rapprochant au plus de ce que nous voulions créer. Nous savons que le jeu n’est pas fini et nous souhaitons ardemment l’améliorer. Nous vous remercions d’avoir consacré de votre temps pour lire notre premier rapport de soutenance en espérant que celui-ci corresponde à vos attentes.
-		</p>
+		La réalisation d’un projet implique toujours un enrichissement personnel et collectif. En effet, ce qui semble évident dans un travail de groupe, c’est le développement de l’esprit d’ ́equipe. Travailler en  équipe, c’est créer une bonne coordination entre les membres pendant toute la durée du projet. De plus, la nécessité de respecter des dates de rendu est facteur aidant au développement de la rigueur personnelle de chacun.
+D’un point de vue de l’enrichissement personnel, le domaine travail est amélioré : le développeur web (site internet), gagnera en compétence dans ce domaine. Il en va de même pour le responsable du design ou encore pour la personne en charge des modèles 3D. Ce projet ainsi développera des compétences en C#, animation 2D et 3D, html et développement web.		</p>
 	</article>
 </aside>
 	
