@@ -1,0 +1,186 @@
+html{ height:100%;}
+
+
+
+
+h2
+{text-align:center;
+font-size:60px;
+margin-top:230px;
+color:white;
+font-family:minivan;
+}
+
+h3
+{
+text-align:center;
+font-family:monospace;
+color:#008080;
+margin-left:20px;
+margin-top:420px;
+font-size:40px;	
+	
+}
+body
+{
+background:url(ID6.jpg)no-repeat;
+background-repeat: no-repeat;
+background-size:1450px 780px;
+padding-bottom:2px;
+font-family: minivan;
+padding:0px;
+margin:0px;
+}
+#Main{ height: 100%; display:flex;  flex-direction:column; }
+
+
+#menu, #menu ul /* LISTE SECTION ET QUIZZ */     
+{
+        padding : 0; /* PAS MARGE IN */
+		margin:0px;
+        list-style : none; /* PAS DE PUCES*/
+        line-height : 50px; /* LARGEUR BOITE */
+        text-align : center; /* TEXTE CENTRER DANS BOITE */
+		
+		
+}
+
+#menu /* Ensemble du menu */
+{
+        font-weight : bold; /*gras*/
+        font-family : minivan; /* police*/
+        font-size :15px; /* taille du texte */
+		margin-left:311px;
+		margin-top:-400px;
+		
+
+}
+
+#menu a /* les blocks*/
+{
+        display : block; /* devient des block */
+        padding : 0;
+        background-color:transaprent;
+        color :white; /* couleur du texte */
+        text-decoration: none; /* enlever le caractère du liens  */
+        width : 180px; /* largeur des blocks */
+}
+
+#menu li /* Elements des listes */      
+{ 
+        float : left; 
+		
+       
+}
+
+
+#menu li
+{
+        border-right: 2px solid transaprent; /*met une bordure transparente à droite de chaque élément */
+}
+
+#menu li ul /* Sous-menu*/
+{ 
+        position: absolute; 
+        width: 144px; /* Largeur des sous-listes */
+        visibility:hidden;/*cacher*/
+		
+		
+}
+
+
+ #menu li ul li                
+{
+        border-top : 1px solid transparent; /*  bordure transparente en haut de chaque élément */
+}
+
+
+
+ #menu li ul ul                
+{
+        border-left     : 1px solid transparent ; /*  bordure  sur la gauche de chaque élément */
+}
+
+
+#menu a:hover /* Lorsque la souris passe sur un des liens */    
+{
+        color: black;
+        background:#008080;/*fond blanc*/
+}
+
+
+
+#menu li:hover ul /* Sous-listes lorsque la souris passe sur un élément de liste  */
+{
+        visibility:visible;/*visible*/
+  
+}
+
+ #livres
+{
+margin-left:270px;
+margin-top:-25px;
+padding-bottom:25px;
+}
+#calculette
+{
+	margin-top:-395px;
+	margin-left:335px;
+
+}
+#stylo
+{
+margin-top:20px;
+	margin-left:220px;
+	
+}
+#ordi
+{
+margin-left:400px;	
+padding-top:0px;
+margin-top:-90px;
+padding-bottom:6px;
+}
+hr{color:#008080;
+padding-bottom:0px;}
+.comment h4
+{
+margin-left:650px;
+margin-top:100px;	
+font-family:minivan;
+font-size:30px;
+color:#008080;
+	
+}
+nav li
+{
+margin-left:650px;
+font-size:20px;
+font-family:minivan;	
+}
+li
+{padding-bottom:30px;}
+nav ul {padding-bottom:25px;}
+p
+{
+	margin-top:60px;
+	text-align:left;
+font-family:minivan;
+font-size:	20px;
+margin-left:10px;}
+}
+
+img
+{margin-left:17px;
+
+padding-right:10px;
+
+}
+#ampoule p
+{
+	text-align:justify;
+	margin-right:20px;
+	line-height:33px;
+padding-bottom:40px;
+font-size:20px;}
+

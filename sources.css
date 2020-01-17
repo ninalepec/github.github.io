@@ -1,0 +1,109 @@
+html{ height:100%;}
+
+
+
+
+h2
+{text-align:center;
+font-size:60px;
+margin-top:230px;
+color:white;
+font-family:minivan;
+margin-bottom:500px;
+}
+
+
+body
+{
+background:url(ID6.jpg)no-repeat;
+background-repeat: no-repeat;
+background-size:1450px 780px;
+padding-bottom:2px;
+font-family: minivan;
+padding:0px;
+margin:0px;
+}
+#Main{ height: 100%; display:flex;  flex-direction:column; }
+
+
+#menu, #menu ul /* LISTE SECTION ET QUIZZ */     
+{
+        padding : 0; /* PAS MARGE IN */
+		margin:0px;
+        list-style : none; /* PAS DE PUCES*/
+        line-height : 50px; /* LARGEUR BOITE */
+        text-align : center; /* TEXTE CENTRER DANS BOITE */
+		
+		
+}
+
+#menu /* Ensemble du menu */
+{
+        font-weight : bold; /*gras*/
+        font-family : minivan; /* police*/
+        font-size :15px; /* taille du texte */
+		margin-left:311px;
+		margin-top:-70px;
+		
+
+}
+
+#menu a /* les blocks*/
+{
+        display : block; /* devient des block */
+        padding : 0;
+        background-color:transaprent;
+        color :white; /* couleur du texte */
+        text-decoration: none; /* enlever le caractère du liens  */
+        width : 180px; /* largeur des blocks */
+}
+
+#menu li /* Elements des listes */      
+{ 
+        float : left; 
+		
+       
+}
+
+
+#menu li
+{
+        border-right: 2px solid transaprent; /*met une bordure transparente à droite de chaque élément */
+}
+
+#menu li ul /* Sous-menu*/
+{ 
+        position: absolute; 
+        width: 144px; /* Largeur des sous-listes */
+        visibility:hidden;/*cacher*/
+		
+		
+}
+
+
+ #menu li ul li                
+{
+        border-top : 1px solid transparent; /*  bordure transparente en haut de chaque élément */
+}
+
+
+
+ #menu li ul ul                
+{
+        border-left     : 1px solid transparent ; /*  bordure  sur la gauche de chaque élément */
+}
+
+
+#menu a:hover /* Lorsque la souris passe sur un des liens */    
+{
+        color: black;
+        background:#008080;/*fond blanc*/
+}
+
+
+
+#menu li:hover ul /* Sous-listes lorsque la souris passe sur un élément de liste  */
+{
+        visibility:visible;/*visible*/
+  
+}
