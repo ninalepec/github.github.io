@@ -1,102 +1,42 @@
-
-body
+body 
 {
-	background-image: url('img/website-background');
-	color: 00305;
-	font-size: 87.5%;
-	font-family: Arial, 'Ludcida Sans Unicode';
-	line-height: 1.5;
-	text-align:left;
-
-}
-
-
-.body
+ background:url("http://www.archijob.co.il/archijob_forums/images_upload/15-19862-20151226-2344.jpg");
+ 
+ }
+h1 
 {
-	margin: 0 auto;
-	width: 70%;
-	clear: both;
-
-}
-
-.mainheader img {
-	width: 20%;
-	height: auto;
-	margin:2% 0;
-}
-
-img.test {
-	width: 20%;
-	height: auto;
-	margin:2% 0;
-	text-align: center;
-}
-
-img.bouton
+text-align:center;
+font-family:monospace;
+font-size:70px;
+margin-top:2px;
+color:white;
+text-decoration: none;
+} 
+nav
 {
-	width: 5%;
-	height: auto;
-	margin:2% 0;
-	text-align:left;
+text-align:center;
+font-family:monospace;
+font-size:25px;
+list-style:none;
+color: white;
+
 }
 
-.mainheader nav {
-	background-color: rgb(43, 43, 44);
-	height: 40px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-}
-
-.mainheader ul {
-	list-style: none;
-	margin: 0 auto;
-}
-
-.mainheader ul li {
-	float:left;
-	display: inline;
-	color: white;
-}
-
-.mainheader nav a:link, .mainheader nav a:visited
+nav ul 
+{list-style:none;}
+figure
 {
-	color:#FFF;
-	display:inline-block;
-	padding: 10px 25px;
-	/* come back for fixing the height: 10px;*/
-
+margin-left:470px;
+font-family:monospace;
+margin-top:320px;
 }
-
-.mainheader nav a:hover, .mainheader nav a:active, .mainheader nav .active a:link, .mainheader nav .active a:visited
+nav li a:hover
 {
-	background-color:rgb(141, 146, 149);
+color: #FF7F50;	
 
 }
 
 a
 {
-	text-decoration: none;
-}
-
-a:link, a:visited {}
-a:hover, a:active {}
-
-#navigation li {
-  display: inline;
-}
-
-
-#navigation {
-  margin: 0 ;
-  padding: 0 ;
-  list-style: none ;
-  text-align: center ;
-}
-
-.header {
-  padding: 60px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
-  font-size: 30px;
+	color:white;text-decoration: none;
 }
